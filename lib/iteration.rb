@@ -26,17 +26,17 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   
-total = 0
-row_index = 0
-while row_index < guessing_game_grid.count do
-  element_index = 0
-  while element_index < guessing_game_grid[row_index].count do
-    total += guessing_game_grid[row_index][element_index]
-    element_index += 1
+  total = 0
+  row_index = 0
+  while row_index < guessing_game_grid.count do
+    element_index = 0
+    while element_index < guessing_game_grid[row_index].count do
+      total += guessing_game_grid[row_index][element_index]
+      element_index += 1
+    end
+    row_index += 1
   end
-  row_index += 1
-end
-total
+  total
 end
 
 def total_even_pairs(src)
