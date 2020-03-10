@@ -10,7 +10,7 @@ def join_ingredients(src)
   while src.length > row_index
     column_index = 0 
     arr = []
-    while column_index < src[column_index].length
+    while column_index < src[row_index].length
       arr << 
       column_index += 1
     end
