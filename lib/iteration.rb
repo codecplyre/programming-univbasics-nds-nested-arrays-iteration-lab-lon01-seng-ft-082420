@@ -28,7 +28,7 @@ def find_greater_pair(src)
   end
   total
 end
-
+puts find_greater_pair(array_2)
 def total_even_pairs(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # if both numbers in the pair are even, then add both those numbers to the
