@@ -13,7 +13,7 @@ def join_ingredients(src)
     column_index = 0 
     arr = []
     while column_index < src[row_index].length do 
-      arr << src[column_index]
+      arr << src[row_index][column_index]
       column_index += 1
     end
     array << "I love #{arr[0]} and #{arr[1]} on my pizza"
