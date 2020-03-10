@@ -29,7 +29,7 @@ def find_greater_pair(src)
   row_index = 0
   while row_index < src.count do
     element_index = 0
-    while element_index < guessing_game_grid[row_index].count do
+    while element_index < src[row_index].count do
       total += guessing_game_grid[row_index][element_index]
       element_index += 1
     end
