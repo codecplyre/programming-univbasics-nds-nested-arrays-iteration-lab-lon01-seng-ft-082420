@@ -15,7 +15,7 @@ def join_ingredients(src)
       arr << src[column_index]
       column_index += 1
     end
-    array << I love (inner array element 0) and  on my pizza"
+    array << "I love #{arr[0]} and #{arr[1]} on my pizza"
     row_index += 1 
   end
       
