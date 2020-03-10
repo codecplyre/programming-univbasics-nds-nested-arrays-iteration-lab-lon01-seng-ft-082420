@@ -37,14 +37,20 @@ end
 puts find_greater_pair(array_2)
 def total_even_pairs(src)
   row_index = 0
-  total = 0 
+  array = []
   while src.length > row_index do 
     column_index = 0 
+    arr = []
     while column_index < src[row_index].length do 
-      total += src[row_index][column_index]
+      arr << src[row_index][column_index]
       column_index += 1
+    end
+    if arr[0] > arr[1]
+      array << arr[0]
+    else 
+      array << arr[1]
     end
     row_index += 1 
   end
-  total 
+  array
 end
