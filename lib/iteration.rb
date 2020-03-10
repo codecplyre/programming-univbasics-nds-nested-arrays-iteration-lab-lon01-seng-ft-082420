@@ -27,7 +27,7 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   total = 0
   row_index = 0
-  while row_index < guessing_game_grid.count do
+  while row_index < src.count do
     element_index = 0
     while element_index < guessing_game_grid[row_index].count do
       total += guessing_game_grid[row_index][element_index]
