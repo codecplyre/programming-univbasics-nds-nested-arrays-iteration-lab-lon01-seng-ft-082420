@@ -43,4 +43,21 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+  row_index = 0
+  array = []
+  while src.length > row_index do 
+    column_index = 0 
+    arr = []
+    while column_index < src[row_index].length do 
+      arr << src[row_index][column_index]
+      column_index += 1
+    end
+    if arr[0] > arr[1]
+      array << arr[0]
+    else 
+      array << arr[1]
+    end
+    row_index += 1 
+  end
+  array
 end
