@@ -16,17 +16,19 @@ def join_ingredients(src)
 end
 #puts join_ingredients(array_1)
 def find_greater_pair(src)
-  total = 0
   row_index = 0
-  while row_index < src.count do
-    element_index = 0
-    while element_index < src[row_index].count do
-      total += src[row_index][element_index]
-      element_index += 1
+  array = []
+  while src.length > row_index do 
+    column_index = 0 
+    arr = []
+    while column_index < src[row_index].length do 
+      arr << src[row_index][column_index]
+      column_index += 1
     end
-    row_index += 1
+    array << "I love #{arr[0]} and #{arr[1]} on my pizza"
+    row_index += 1 
   end
-  total
+  array
 end
 puts find_greater_pair(array_2)
 def total_even_pairs(src)
