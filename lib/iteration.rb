@@ -46,11 +46,8 @@ def total_even_pairs(src)
       arr << src[row_index][column_index]
       column_index += 1
     end
-    if arr[0] % 2 == 0 
+    if arr[0] % 2 == 0 && arr[1] % 2 == 0
       total += arr[0]
-    end
-    if arr[1] % 2 == 0 
-      total += arr[1]
     end
     row_index += 1 
   end
