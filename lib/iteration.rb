@@ -49,3 +49,4 @@ def total_even_pairs(src)
   end
   total 
 end
+puts total_even_pairs(array_3)
