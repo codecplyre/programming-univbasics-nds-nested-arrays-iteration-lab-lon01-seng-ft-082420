@@ -40,9 +40,8 @@ def total_even_pairs(src)
   total = 0 
   while src.length > row_index do 
     column_index = 0 
-    arr = []
     while column_index < src[row_index].length do 
-      arr << src[row_index][column_index]
+      total += src[row_index][column_index]
       column_index += 1
     end
     row_index += 1 
