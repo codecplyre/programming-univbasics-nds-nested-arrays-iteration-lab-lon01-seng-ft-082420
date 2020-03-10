@@ -25,7 +25,11 @@ def find_greater_pair(src)
       arr << src[row_index][column_index]
       column_index += 1
     end
-    array << "I love #{arr[0]} and #{arr[1]} on my pizza"
+    if arr[0] > arr[1]
+      array << arr[0]
+    else 
+      array << arr[1]
+    end
     row_index += 1 
   end
   array
