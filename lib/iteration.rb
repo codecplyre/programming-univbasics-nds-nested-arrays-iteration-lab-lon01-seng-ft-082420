@@ -7,11 +7,11 @@ def join_ingredients(src)
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
   row_index = 0 
-  while src.length > row_index
+  while src.length > row_index do 
     column_index = 0 
     arr = []
-    while column_index < src[row_index].length
-      arr << 
+    while column_index < src[row_index].length do 
+      arr << src[column_index]
       column_index += 1
     end
     row_index += 1 
