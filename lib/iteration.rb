@@ -37,7 +37,6 @@ while row_index < guessing_game_grid.count do
   row_index += 1
 end
 total
-    
 end
 
 def total_even_pairs(src)
