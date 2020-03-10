@@ -9,7 +9,7 @@ def join_ingredients(src)
   row_index = 0 
   while src.length > row_index
     column_index = 0 
-    while column_index <
+    while column_index < src[column_index].length 
     return "I love #{src[0][0]} and #{src[0][1]} on my pizza"
 end
 
