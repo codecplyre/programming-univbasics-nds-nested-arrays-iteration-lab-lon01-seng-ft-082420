@@ -1,4 +1,4 @@
-array_1 = [['pepperoni', 'sausage', 'manggo'], ['green olives', 'green peppers'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple'], ['onions', 'pineapple']]
+
 def join_ingredients(src)
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
