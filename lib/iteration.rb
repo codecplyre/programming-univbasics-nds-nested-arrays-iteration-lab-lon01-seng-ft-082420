@@ -48,6 +48,10 @@ def total_even_pairs(src)
     end
     if arr[0] % 2 == 0 
       total += arr[0]
+    end
+    if arr[1] % 2 == 0 
+      total += arr[1]
+    end
     row_index += 1 
   end
   total 
